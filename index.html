@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 17</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        </style>
+</head>
+<body>
+    <!-- setInterval(function(),milisecond) => repeatively running
+    setTimeOut => after sometime -->
+
+    <div class="clock">
+        <h1 id="min">00<sub>M</sub></h1>
+        <h1 id="sec">00<sub>S</sub></h1>
+        <h1 id="msec">00<sub>ms</sub></h1>
+    </div>
+
+    <div>
+        <button id="btn" onclick="start()">START</button>
+        <button onclick="pause()">PAUSE</button>
+        <button onclick="reset()">RESET</button>
+    </div>
+<!-- <h1>HISTORY</h1>
+<p id="p"></p> -->
+</body>
+<script src="JS/app.js"></script>
+</html>
